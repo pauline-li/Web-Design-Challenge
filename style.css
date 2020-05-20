@@ -1,0 +1,28 @@
+/*
+Web-Design-Challenge Homework
+*/
+body {
+    background: rgb(186, 187, 189);
+  }
+
+#top-fig1
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 160px;
+    width: 160pxborder 3px solid white;
+
+}
+.main-box p{
+    font-family: 'Arial Narrow';
+    font-size: x-large;
+ /*main content box format*/   
+
+}
+.left{
+float:left;
+padding: 0 10px 0 0;  
+/*Text to wrap around image*/
+
+}
