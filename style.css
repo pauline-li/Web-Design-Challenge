@@ -2,7 +2,8 @@
 Web-Design-Challenge Homework
 */
 body {
-    background: rgb(186, 187, 189);
+       background: lightgrey;
+    /* background: rgb(186, 187, 189); */
   }
 
 #top-fig1
@@ -15,8 +16,9 @@ body {
 
 }
 .main-box p{
-    font-family: 'Arial Narrow';
-    font-size: x-large;
+    font-family: arial;
+    font-size: large;
+     
  /*main content box format*/   
 
 }
@@ -25,4 +27,47 @@ float:left;
 padding: 0 10px 0 0;  
 /*Text to wrap around image*/
 
+}
+h1{
+    font-family: serif;    
+    color: teal;
+    font-size: xx-large;
+    font-weight: bold; 
+}
+
+h2{
+    font-family: serif;    
+    color: teal;
+    font-size: x-large;
+    font-weight: bold;
+}
+.main-box{
+background-color:whitesmoke;
+padding: 25px;
+
+}
+.right-pane{
+    background-color:whitesmoke;
+    padding: 15px;
+    column-width: auto; /*right pane container*/
+    /* visualization container */
+    }
+hr{
+    border-color: rgb(175, 174, 174);
+
+}
+.navbar-header{
+    background-color: rgb(175, 174, 174) ;
+    /* text-align: center;
+    */
+    
+}
+.right-content
+{
+ /* width: 375px; */
+ column-width: auto;
+ height: 400px;
+ position:relative ;
+ /* border: 3px solid#777777; */
+/* visualization container - content*/
 }
