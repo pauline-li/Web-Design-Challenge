@@ -15,13 +15,21 @@ body {
     width: 160pxborder 3px solid white;
 
 }
-.main-box p{
+.main-content p{
     font-family: arial;
     font-size: large;
+    /* padding-top: 25px; */
      
  /*main content box format*/   
 
 }
+.visual-description
+{
+    padding-top: 20px;
+
+}
+
+
 .left{
 float:left;
 padding: 0 10px 0 0;  
@@ -41,7 +49,7 @@ h2{
     font-size: x-large;
     font-weight: bold;
 }
-.main-box{
+.main-content{
 background-color:whitesmoke;
 padding: 25px;
 
@@ -58,16 +66,64 @@ hr{
 }
 .navbar-header{
     background-color: rgb(175, 174, 174) ;
+    min-height: 50px;
+    width: 5%;
+    font-family: serif;
+    font-size: large ;
+   
+    /*Latitude-top left content*/
     /* text-align: center;
     */
     
 }
+
+/* .navbar-brand{
+    color: red;
+    /* position: fixed; */
+
+    /*Latitude-top left content*/
+    /* text-align: center;
+    */
+    
+} */
 .right-content
 {
  /* width: 375px; */
  column-width: auto;
  height: 400px;
  position:relative ;
+ padding-top: 20px;
  /* border: 3px solid#777777; */
 /* visualization container - content*/
 }
+footer
+{
+    padding-top: 15px;
+    text-align: center; 
+    position: fixed; 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top-style: solid;
+    background-color: #696565;
+    border-top-width: 5px; 
+    border-top-color: teal;
+    color: white; 
+    min-height: 60px;
+    font-family: serif;
+    font-size: 14px;
+}
+
+
+/* @media (max-width: 400px)
+{
+ #copyright{   
+ text-align: center;   
+}
+ #social > div{
+ display: block;
+ width: 100%;
+ margin: 0 auto;
+ text-align: center;
+
+} */
