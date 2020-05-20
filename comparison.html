@@ -23,7 +23,6 @@
           <span class = "caret"></span>   <!--dropdown arrow-->
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
-
           <ul class="plots-dropMenu"> 
            <li><a class="dropdown-item" href="max-temperature.html">Max Temperature</a></li>  
            <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>  
@@ -46,42 +45,21 @@
 </nav>
  <!-- container starts -->
  <div class= "container">
-  <div class= "row">
-      <div class= "col-md-8"> 
-          <div class= "main-content">
-          <h1 class= "main-header">Max Temperature</h1>
-          <hr>
-          <div class= "visual-description">
-              <img id= "main-image" src= "WebVisualizations\assets\Fig1.png" class = "img img-responsive left_noWrap" style="width:100%"> <!--class= "img img-responsive" AND class="left_noWrap"-->
-              <p>
-              <br><br>  
-              As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly,
-              however, is the fact that the southern hemisphere tends to be warmer this time of the year
-              this data was gathered.
-              <br><br>
-            </p>
-          </div>
-          </div>
-      </div>
-      <div class= "col-md-4">
+     <div class= "col-md-12">
           <div class= "right-pane">
           <h2 class= "right-pane-header">Visualizations</h2>
           <hr>
           <div class= "right-content">
-              <div class="row" style = "padding-bottom: 20px">
-                <div class="col-md-6"><a href="max-temperature.html"><img src="WebVisualizations\assets\Fig1.png" class = "img img-responsive"></a></div>
-                <div class="col-md-6"><a href="humidity.html"><img src="WebVisualizations\assets\Fig2.png" class = "img img-responsive"></a></div>
+              <div class="row" style = "padding-bottom: 50px">
+                <div class="col-md-6"><a href="max-temperature.html"><div class = "image-headers">vs. Max Temperature</div><img src="WebVisualizations\assets\Fig1.png" class = "img img-responsive"></a></div>
+                <div class="col-md-6"><a href="humidity.html"><div class = "image-headers">vs. Humidity</div><img src="WebVisualizations\assets\Fig2.png" class = "img img-responsive"></a></div>
               </div>
-              <div class="row" style = "padding-bottom: 20px">
-                <div class="col-md-6"><a href="cloudiness.html"><img src="WebVisualizations\assets\Fig3.png" class = "img img-responsive"></a></div>
-                <div class="col-md-6"><a href="windspeed.html"><img src="WebVisualizations\assets\Fig4.png" class = "img img-responsive"></a></div>
+              <div class="row" style = "padding-bottom: 50px">
+                <div class="col-md-6"><a href="cloudiness.html"><div class = "image-headers">vs. Cloudiness</div><img src="WebVisualizations\assets\Fig3.png" class = "img img-responsive"></a></div>
+                <div class="col-md-6"><a href="windspeed.html"> <div class = "image-headers">vs. Wind Speed</div><img src="WebVisualizations\assets\Fig4.png" class = "img img-responsive"></a></div>
                 <!-- <div class="col-sm-6"><a href="windspeed.html"><img src = "WebVisualizations\assets\Fig4.png" src="WebVisualizations\assets\Fig4.png" style="width:100%" alt=""></a></div>  -->
               </div>
-
-
-
-
-              </div>
+             </div>
           </div>
       </div>
   </div>

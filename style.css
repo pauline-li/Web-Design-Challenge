@@ -31,11 +31,16 @@ body {
 /* .navbar navbar-default{text-align: center;} */
 
 .left{
-float:left;
-padding: 0 10px 0 0;  
-/*Text to wrap around image*/
+    float:left;
+    padding: 0 10px 0 0;  
+/* Text to wrap around image */
 
 }
+.left_noWrap{
+    float:left;
+      
+}
+
 h1{
     font-family: serif;    
     color: teal;
@@ -48,6 +53,14 @@ h2{
     color: teal;
     font-size: x-large;
     font-weight: bold;
+}
+.image-headers{
+    font-family: serif;    
+    color: teal;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    
 }
 .main-content{
 background-color:whitesmoke;
