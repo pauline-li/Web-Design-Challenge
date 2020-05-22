@@ -69,8 +69,10 @@ padding: 25px;
 }
 .right-pane{
     background-color:whitesmoke;
-    padding: 15px;
-    column-width: auto; /*right pane container*/
+    padding: 20px;
+    column-width: auto; 
+    margin-bottom: 30px;
+    /*right pane container*/
     /* visualization container */
     }
 hr{
@@ -124,7 +126,7 @@ hr{
 }
 footer
 {
-    padding-top: 15px;
+    padding-top: 10px;
     text-align: center; 
     position: fixed; 
     left: 0;
@@ -148,6 +150,10 @@ footer
     overflow: auto; /**/
 
 }
+#rightleft-id{
+    overflow: auto; /**/
+
+}
 @media screen and (max-width: 800px){
     .container-fluid {
         background-color: lightseagreen;
@@ -161,6 +167,23 @@ footer
     right: 0;
 
    } 
+
+#hover-1:hover{
+    border: 3px solid rgb(139, 179, 179);
+}
+#hover-2:hover{
+    border: 3px solid rgb(139, 179, 179);
+
+}  /*change border color when hover over*/
+#hover-3:hover{
+    border: 3px solid rgb(139, 179, 179);
+
+}  /*change border color when hover over*/
+#hover-4:hover{
+    border: 3px solid rgb(139, 179, 179);
+
+}  /*change border color when hover over*/
+
 
 
  /* #top-right{
